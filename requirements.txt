@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+pyyaml
+tqdm
+tensorboard
+# wandb   # 先注释掉也行，闭环跑通后再开

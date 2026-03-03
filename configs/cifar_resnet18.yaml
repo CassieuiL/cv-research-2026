@@ -1,0 +1,7 @@
+seed: 42
+epochs: 3
+batch_size: 128
+lr: 0.1
+num_workers: 2
+log_dir: outputs/runs/cifar_resnet18
+ckpt_dir: outputs/checkpoints/cifar_resnet18
