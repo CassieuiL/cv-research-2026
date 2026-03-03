@@ -9,7 +9,6 @@ pip install -r requirements.txt
 python -m src.train --epochs 3 --batch_size 128 --lr 0.1 --seed 42
 ```
 
-
 ## Week 1: Minimal training loop (CIFAR10 / ResNet18)
 
 ### Setup
@@ -20,7 +19,6 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
 
 ### Train
 
@@ -35,14 +33,3 @@ pip install -r requirements.txt
 * Logs: `outputs/runs/cifar_resnet18/`
 * Checkpoints: `outputs/checkpoints/cifar_resnet18/`
 * Figure: `outputs/figures/tensorboard_train.png`
-
-
----
-## 5）把该忽略的大文件加入 .gitignore（非常重要）
-确认 `.gitignore` 里有这些（没有就加）：
-
-```gitignore
-.venv/
-data/
-outputs/runs/
----
